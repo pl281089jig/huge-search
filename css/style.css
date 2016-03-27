@@ -1,0 +1,96 @@
+html{
+ height: 100%;
+ }
+
+html, body{
+ min-height: 100%;
+ }
+
+*{box-sizing: border-box;}
+
+body{
+	margin: 0;
+	font: 15px/1.3 Arial, sans-serif;
+	background-color: #F1F1F1;
+	display: block;
+	padding:80px;}
+
+.hs-container1 {max-width:1800px;
+margin: 30px auto;}
+
+.hs-poisk {
+display: inline-block;
+font-size: 100px;
+max-width: 75%;
+background: transparent;
+border: none;
+font-weight: bold;
+opacity:0.6;
+color:#ec5a62;
+padding: 0;
+margin-left: 20px;
+vertical-align: middle;
+}
+
+
+.hs-main a{color:#c2c2c2;
+padding:5px ;
+margin: 10px 20px;
+text-decoration: none;
+background-color:rgba(118,117,128,0.05);
+display: block;
+border-radius: 5px;
+transition: all .1s ease-in;}
+
+.hs-main h2 {color:#c2c2c2;
+padding:5px ;
+margin: 10px 20px;
+display: block;
+}
+
+.hs-main {margin-top: 30px;}
+
+.hs-column ul {padding: 0;
+	vertical-align: middle;
+}
+
+.hs-column p {display: inline-block;
+padding-left: 10px;
+vertical-align: middle;
+font-weight: bold;}
+
+.hs-main a:hover {background:rgba(118,117,128,0.1);
+color:#ec5a62;}
+
+.hs-column li {list-style-type: none;
+vertical-align: middle;
+}
+
+
+.hs-container {margin: 0 auto;
+position:relative;
+color:#c2c2c2;
+}
+
+.hs-column {
+	display: inline-block;
+	width: 30%;
+	box-sizing: border-box;
+}
+
+.hs-column1 img {border-radius: 50%;}
+
+.hs-column img {display: inline-block;
+vertical-align: middle;}
+
+
+.knopka {position:absolute;
+width:100px;
+height:100px;
+vertical-align: middle;
+display: inline-block;
+background: url (https://github.com/alexcss/huge-search/blob/master/img/magnifier.svg); /*не получилось прикрепить лупу*/
+}
+
+
+
