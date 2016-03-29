@@ -89,7 +89,7 @@ width:100px;
 height:100px;
 vertical-align: middle;
 display: inline-block;
-background: url (https://github.com/alexcss/huge-search/blob/master/img/magnifier.svg); /*не получилось прикрепить лупу*/
+background: url (../img/magnifier.svg);50% /*не получилось прикрепить лупу*/
 }
 
 
